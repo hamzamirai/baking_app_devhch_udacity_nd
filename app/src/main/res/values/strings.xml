@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Baking App</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="what_would_you_like_to_bake_toady">What would you like\nto bake today?</string>
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <string name="make_sure_that_you_are_connected">
+        \nMake sure that you are connected to the Internet and click here again.</string>
+    <string name="play_content_description_button">Play button</string>
+    <string name="ingredient_text">"Ingredients: "</string>
+    <string name="mp4">mp4</string>
+    <string name="period">.</string>
+    <string name="step">"Step "</string>
+    <string name="space">" "</string>
+    <string name="of">of</string>
+    <string name="question_mark">�</string>
+    <string name="degree">°</string>
+    <string name="title">Recipe Title</string>
+
+    <string name="appwidget_text">Widget Example</string>
+    <string name="configure">Choose a recipe !</string>
+    <string name="add_widget">Add widget</string>
+    <string name="measure">Measure</string>
+    <string name="widget_configuration">Widget Configuration</string>
+    <string name="steps">"Steps: "</string>
+    <string name="ingredient">ingredient</string>
+    <string name="quantity">quantity</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="servings">Servings:</string>
+    <string name="intro">intro</string>
+    <string name="current_step">1/10</string>
+
+</resources>

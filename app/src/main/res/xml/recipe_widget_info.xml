@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.devhch.mirai.bakingapp.RecipeWidgetConfigureActivity"
+    android:initialKeyguardLayout="@layout/recipe_widget"
+    android:initialLayout="@layout/recipe_widget"
+    android:minHeight="@dimen/recipe_widget_info_mini_height"
+    android:minWidth="@dimen/recipe_widget_info_mini_width"
+    android:previewImage="@drawable/widget_example"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="864000000"
+    android:widgetCategory="home_screen">
+
+</appwidget-provider>

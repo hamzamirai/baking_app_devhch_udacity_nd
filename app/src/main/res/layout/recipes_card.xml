@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="@dimen/card_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_selector"
+        app:cardElevation="@dimen/card_elevation"
+        app:cardCornerRadius="@dimen/card_radius"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/recipe_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ken_burns_view_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nutella_pie"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/mini_padding"
+                android:layout_marginStart="@dimen/mini_padding"
+                android:id="@+id/recipe_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/recipe_name"
+                android:textSize="@dimen/text_size"
+                android:fontFamily="@font/lobster"
+                android:textColor="@color/text_color"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginStart="8dp"
+                android:id="@+id/recipe_servings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:fontFamily="@font/lobster"
+                android:text="@string/servings"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size"
+                android:layout_marginBottom="@dimen/mini_padding"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
