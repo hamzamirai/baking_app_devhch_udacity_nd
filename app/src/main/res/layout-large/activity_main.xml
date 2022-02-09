@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_main_activity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recipes_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_bake_today"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            tools:listitem="@layout/recipes_card"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/main_recycler_view_margin_start"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lobster"
+            android:paddingStart="@dimen/layout_padding"
+            android:paddingTop="@dimen/mini_padding"
+            android:text="@string/welcome"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_welcome"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_bake_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_welcome"
+            android:fontFamily="@font/lobster"
+            android:paddingStart="@dimen/layout_padding"
+            android:paddingBottom="@dimen/mini_padding"
+            android:text="@string/what_would_you_like_to_bake_toady"
+            android:textColor="@color/text_color_blue_light"
+            android:textSize="@dimen/text_size_bake_today"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/no_internet_connection"
+            style="@style/TextViewDetailStyle"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/no_internet_connection"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/text_color"
+            android:textStyle="bold|italic"
+            android:visibility="gone" />
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/spin_kit"
+            android:layout_centerInParent="true"
+            style="@style/SpinKitView.Large.Wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/colorAccent" />
+
+    </RelativeLayout>
+</layout>

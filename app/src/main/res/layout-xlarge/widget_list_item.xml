@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selector"
+    android:orientation="vertical"
+    android:padding="@dimen/margin">
+
+    <TextView
+        android:id="@+id/widget_recipe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster"
+        android:text="@string/title"
+        android:textColor="@color/dark_pink"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="@font/lobster"
+        android:id="@+id/widget_recipe_measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/measure"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/mini_text_size" />
+
+</LinearLayout>

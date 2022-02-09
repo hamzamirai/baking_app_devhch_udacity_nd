@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3152AF</color>
+    <color name="colorPrimaryDark">#3152AF</color>
+    <color name="colorAccent">#3152AF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_color">#3152AF</color>
+    <color name="text_color_blue_light">#4E67C2</color>
+    <color name="dark_pink">#E95454</color>
+    <color name="pink">#E95454</color>
+    <color name="back_color">#FDF2ED</color>
+
+    <color name="color_background">#F6F5FF</color>
+    <color name="color_frame_player_bg">#F6E6FA</color>
+</resources>
