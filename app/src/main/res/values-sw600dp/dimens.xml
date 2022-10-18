@@ -15,7 +15,7 @@
     <dimen name="view_pager_height">180dp</dimen>
     <dimen name="view_pager_padding">60dp</dimen>
     <dimen name="card_elevation">4dp</dimen>
-    <dimen name="ken_burns_view_height">120dp</dimen>
+    <dimen name="ken_burns_view_height">220dp</dimen>
     <dimen name="recipe_widget_info_mini_height">40dp</dimen>
     <dimen name="recipe_widget_info_mini_width">250dp</dimen>
 </resources>
